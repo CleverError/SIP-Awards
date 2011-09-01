@@ -14,13 +14,6 @@
 		
 		<modification format="xml" type="file">install.xml</modification>
 		
-		<require-file name="source/SimpleXBL.php" destination="$sourcedir" />
-		<require-file name="template/SimpleXBL.template.php" destination="$themedir" />
-		<require-file name="language/SimpleXBL.english.php" destination="$languagedir" />
-		<require-file name="language/SimpleXBL.english-utf8.php" destination="$languagedir" />
-		
-		<require-dir name="xbl" destination="$imagesdir" />
-		
 		<redirect url="?action=admin;area=simplexbl">redirect.txt</redirect>
 	</install>
 	
@@ -30,12 +23,6 @@
 		
 		<modification format="xml" type="file" reverse="true">install.xml</modification>
 		
-		<remove-file name="$sourcedir/SimpleXBL.php" />
-		<remove-file name="$themedir/SimpleXBL.template.php" />
-		<remove-file name="$languagedir/SimpleXBL.english.php" />
-		<remove-file name="$languagedir/SimpleXBL.english-utf8.php" />
-		
-		<remove-dir name="$imagesdir/xbl" />
 	</uninstall>
 	
 </package-info>

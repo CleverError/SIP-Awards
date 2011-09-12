@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		444F8E14141DA77F00EC3F15 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		444F8E15141DA77F00EC3F15 /* add_settings.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = add_settings.php; sourceTree = "<group>"; };
+		444F8E16141DA77F00EC3F15 /* install.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = install.php; sourceTree = "<group>"; };
+		444F8E17141DA77F00EC3F15 /* package-info.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "package-info.xml"; sourceTree = "<group>"; };
+		444F8E18141DA77F00EC3F15 /* remove_settings.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = remove_settings.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		444F8E0B141DA77400EC3F15 = {
+			isa = PBXGroup;
+			children = (
+				444F8E14141DA77F00EC3F15 /* README */,
+				444F8E15141DA77F00EC3F15 /* add_settings.php */,
+				444F8E16141DA77F00EC3F15 /* install.php */,
+				444F8E17141DA77F00EC3F15 /* package-info.xml */,
+				444F8E18141DA77F00EC3F15 /* remove_settings.php */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		444F8E0D141DA77400EC3F15 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 444F8E10141DA77400EC3F15 /* Build configuration list for PBXProject "SIP-Awards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 444F8E0B141DA77400EC3F15;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		444F8E12141DA77400EC3F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		444F8E13141DA77400EC3F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444F8E10141DA77400EC3F15 /* Build configuration list for PBXProject "SIP-Awards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444F8E12141DA77400EC3F15 /* Debug */,
+				444F8E13141DA77400EC3F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444F8E0D141DA77400EC3F15 /* Project object */;
+}
